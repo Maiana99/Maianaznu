@@ -1,0 +1,51 @@
+<html>
+        <!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Tableau</title>
+<link rel="stylesheet" href="Formulaire2'.css">
+</head>
+<body>
+ <form method="post" action="cible_formulaire 2.php">
+<fieldset class="pointillés">
+<legend align="center">ETAT CIVIL</legend> <!-- Titre du fieldset -->
+<label for="Matricule">Matricule</label>
+<input type="text" class="Matricule" name="Matricule" id="Matricule"/>
+<label for="Nom">Nom</label>
+<input type="text" class="Nom" name="Nom" id="Nom"/><br/>
+<label for="Prénoms">Prénoms</label>
+<input type="text" class="Prénoms" name="Prénoms" id="Prénoms"/>
+<label for="Sex">Sexe</label>
+<select name="sex" id="sex">
+    <option value="F">Féminin</option>
+    <option value="M">Masculin </option>
+    </select><br/>
+<label for="Naissance">Naissance</label>
+<input type="date" class="date" name="date" id="date"/>
+<label for="Age">Âge</label>
+<input type="Age" class="Age" name="Age" id="Age"/><br/>
+</fieldset>
+<fieldset class="traits">
+<legend align="center">MES DIPLÔMES</legend> <!-- Titre du fieldset -->
+<input type="checkbox"/><label for="CEP">CEP</label><br/>
+<input type="checkbox"/><label for="BEPC">BEPC</label><br/>
+<input type="checkbox"/><label for="BAC">BAC</label><br/>
+</fieldset>
+<fieldset class="tirets">
+<legend align="center">MON EXPERTISE</legend> <!-- Titre du fieldset -->
+<input type="radio" name="Expertise" value="informatique" id="informatique" tabindex="40" /> <label for="informatique">Expert en informatique</label><br/>
+<input type="radio" name="Expertise" value="dev web" id="dev web" tabindex="50" /> <label 
+for="celebre">Expert en développement web</label><br/>
+<input type="radio" name="Expertise" value="Intelligence artificielle" id="Intelligence artificielle" tabindex="60" /> <label 
+for="Intelligence artificielle">Expert en intelligence artificielle </label><br/>
+<input type="radio" name="Expertise" value="bavardage" id="bavardage" tabindex="70" /> <label 
+for="bavardage">Expert en bavardage 😂</label><br />
+</fieldset>
+<fieldset class="normal">
+<legend align="center">LES BOUTONS</legend> <!-- Titre du fieldset -->
+<input type="submit" /> <input type="reset" /> <button onclick="fermerpage()">Quitter</button>
+</fieldset>
+</form>
+</body>
+</html>

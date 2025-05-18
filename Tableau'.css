@@ -1,0 +1,21 @@
+/*style tableau*/
+body{
+    background-image:url('/storage/emulated/0/Download/f927f0cc-5add-47fc-b7d5-19fc90b26629.jpeg');
+    background-position:center;
+    background-size:cover;
+}
+
+#IG1{
+    background-color: red;
+}
+#IG2{
+    background-color: green;
+}
+table{
+    height: 20%;
+    width: 80%;
+    position: center;
+}
+em{
+    color:purple;
+}

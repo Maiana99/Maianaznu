@@ -1,0 +1,10 @@
+/*style4.css*/
+body{
+    background-image: url('/storage/emulated/0/Download/526031d8-c779-4a7f-b650-71a595151ca9.jpeg');
+    background-repeat:repeat;
+    background-size: cover;
+    background-position:left;
+}
+h1{
+    font-size: 30px;
+}

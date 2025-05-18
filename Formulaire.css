@@ -1,0 +1,26 @@
+/*agrandir taille de formulaire*/
+form{
+    width: 80%;
+    height: 300%;
+}
+fieldset {
+    font-size: 50px;
+}
+h1{
+    font-size: 60px;
+}
+input[type="submit"]{
+    background-color: lightgreen;
+}
+input[type="reset"]{
+    background-color: pink;
+}
+fieldset{
+    width:100%;
+    height: auto ;
+}
+body{
+    background-image:url('/storage/emulated/0/Download/8307708c-a347-4123-992b-a7c51add56c9.jpeg');
+    background-position:center;
+    background-size:cover;
+}

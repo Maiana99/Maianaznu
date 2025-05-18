@@ -1,0 +1,56 @@
+
+input[type="submit"]{
+    background-color: lightgreen;
+}
+input[type="reset"]{
+    background-color: pink;
+}
+button{
+    background-color: red;
+}
+body{
+    background-image: url('/storage/emulated/0/Download/b0698d96-5592-4a1c-b2aa-3f4a10005d55.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Matricule{
+    display: inline-block;
+    margin-right: 100px;
+}
+.Nom{
+    display:inline-block;
+}
+.Prénoms{
+    display: inline-block;
+    margin-right: 120px;
+}
+.Sexe{
+    display:inline-block;
+}
+.Date{
+    display: inline-block;
+    margin-right: 150px;
+}
+.Age{
+    display:inline-block;
+}
+fieldset{
+  font-size:50px;
+}
+.pointillés{
+    border-style: dotted;
+    border-width: thick ;
+}
+.traits{
+    border-style:double;
+    border-width: thick ;
+}
+.tirets{
+    border-style:dashed;
+    border-width: thick;
+}
+.normal{
+    border-style :solid;
+    border-with: thick ;
+}
